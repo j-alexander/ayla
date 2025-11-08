@@ -1,0 +1,7 @@
+STORAGE: NONE
+RESTRICTION: == net8.0
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    FlashCap (1.11)
+      FlashCap.Core (>= 1.11)
+    FlashCap.Core (1.11)
