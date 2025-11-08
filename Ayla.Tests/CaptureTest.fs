@@ -1,5 +1,10 @@
 ﻿namespace Ayla.Tests
 
-module Say =
-    let hello name =
-        printfn "Hello %s" name
+open NUnit.Framework
+
+[<TestFixture>]
+type CaptureTest() =
+
+    [<Test>]
+    member x.TestCapture1() =
+        Assert.AreEqual(1,1)
