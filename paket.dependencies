@@ -2,3 +2,7 @@ source https://api.nuget.org/v3/index.json
 framework: net80
 storage: none
 nuget FlashCap
+nuget FSharp.Core
+nuget Microsoft.NET.Test.Sdk
+nuget NUnit ~> 3
+nuget NUnit3TestAdapter

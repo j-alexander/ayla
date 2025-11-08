@@ -6,7 +6,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="paket.references" />
-    <Compile Include="Capture.fs" />
+    <Compile Include="CaptureTest.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ayla\Ayla.fsproj" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
